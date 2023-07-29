@@ -1,0 +1,169 @@
+html,
+body {
+    font-family: sans-serif;
+}
+
+.container-sections {
+    overflow: auto;
+}
+
+button {
+    border: none;
+
+}
+
+
+
+.btn-menu {
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 10px 0;
+    background-color: #164e63;
+    color: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-menu:hover {
+    transform: scale(1.1);
+}
+
+.btn-add {
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: #164e63;
+    color: white;
+}
+
+.btn-add:hover {
+    transform: scale(1.1);
+}
+
+header {
+    background-color: #164e63;
+    color: white;
+}
+
+.container-header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.container-body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    min-height: calc(100vh - 95px);
+}
+
+aside {
+    background-color: #0891b2;
+    color: white;
+}
+
+.container-aside {
+    padding: 15px;
+}
+
+.container-add {
+    display: flex;
+    justify-content: center;
+}
+
+.container-options {
+    margin-bottom: 20px;
+}
+
+.list-item {
+    background-color: #cbd5e1;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 15px auto;
+    border-left: 5px solid #164e63;
+    padding: 5px 15px;
+    transition: all 0.5s ease;
+
+}
+
+.list-item:hover {
+    transform: scale(1.05);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.list-item div {
+    display: flex;
+}
+
+.container-thisWeek {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+}
+
+.container-days {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    border-right: 1px solid rgb(232, 232, 232);
+    padding: 0 15px;
+}
+
+.btnDay {
+    margin: 5px;
+    padding: 15px 30px;
+    background-color: #164e63;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btnDay:hover {
+    transform: scale(1.05);
+}
+
+.container-proyectos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px;
+    gap: 15px;
+}
+
+.proyecto {
+    background-color: #cbd5e1;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-proyecto-mas {
+    background-color: #164e63;
+}
+
+.btn-proyecto-eliminar {
+    background-color: red;
+}

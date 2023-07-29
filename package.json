@@ -1,0 +1,28 @@
+{
+  "name": "tod_listtodo",
+  "version": "1.0.0",
+  "description": "proyect from TOD",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoCurci/TOD_ListToDo.git"
+  },
+  "author": "franco curci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoCurci/TOD_ListToDo/issues"
+  },
+  "homepage": "https://github.com/FrancoCurci/TOD_ListToDo#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "keywords": []
+}
